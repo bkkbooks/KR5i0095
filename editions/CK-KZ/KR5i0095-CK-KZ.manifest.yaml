@@ -1,0 +1,61 @@
+canonical_identifier: bkk:krp/KR5i0095/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5i0095/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 十戒功過格
+  date: '2015-08-29 17:59:06.989022'
+  source:
+    repository: kanripo
+    path: KR5i0095
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0095_001-CK-KZ.yaml, hash: 'sha256:6a21c1dfe2d9832b91b9d329f5411e1846de0add13d9a7c077e7d1fab364724f'}
+  - {seq: 2, filename: KR5i0095_002-CK-KZ.yaml, hash: 'sha256:de504b657a8bad16b0c78678e8f15d28ad9984caba21eceadf9e76ba1b16f81f'}
+  - {seq: 3, filename: KR5i0095_003-CK-KZ.yaml, hash: 'sha256:776f69819df11707243774896d64f137e15f4285624237d2ace14b76e9d35c1a'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0095_001-CK-KZ.markers.yaml, hash: 'sha256:01e18beb4fd3ffcf5589371ded99b088d846ba2854e762e5941f987720342ed5'}
+  - {seq: 2, role: markers, filename: assets/KR5i0095_002-CK-KZ.markers.yaml, hash: 'sha256:fa5235699d8fec216dad176289f86100ce7f7092946ca584066124245dde178f'}
+  - {seq: 3, role: markers, filename: assets/KR5i0095_003-CK-KZ.markers.yaml, hash: 'sha256:e8eef0d1cd2b3f2e6cc2eec96d79259a57955549aaff666388058d1de0d0a12d'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0095_01p001a
+    span:
+    - body
+    - 0
+    - 261
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: CK-KZ_KR5i0095_02p001a
+    span:
+    - body
+    - 0
+    - 1043
+  label: juan 002
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: CK-KZ_KR5i0095_03p001a
+    span:
+    - body
+    - 0
+    - 18600
+  label: juan 003
+  type: section
+  level: 1
+hash: sha256:212be1dd0cb5564a08fb8415121d913b41381f01391a54b965e1cf8c1633aecf

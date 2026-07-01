@@ -1,0 +1,61 @@
+canonical_identifier: bkk:krp/KR5i0095/YP-C/v1
+canonical_location: https://kanripo.org/bkk/KR5i0095/YP-C/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 十戒功過格
+  date: '2015-08-29 17:59:06.989022'
+  source:
+    repository: kanripo
+    path: KR5i0095
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: YP-C
+    label: 【原版道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0095_001-YP-C.yaml, hash: 'sha256:5bef49e76028e62ecaaf0f3792fdb0ff3773e60852a0ce0450f5befdb7327d55'}
+  - {seq: 2, filename: KR5i0095_002-YP-C.yaml, hash: 'sha256:e946c4d7ccee1d4eded996b7a780c501805996741689b8f6ad08aded5f649ccc'}
+  - {seq: 3, filename: KR5i0095_003-YP-C.yaml, hash: 'sha256:05c067ec3bdd1e13e01b3c26e4dbc6e32794dbc8abf17f9e07a44016d2d608c8'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0095_001-YP-C.markers.yaml, hash: 'sha256:c68cb9570367a74484304b205212ec60e84a6a85539360c6b5dffae0bd061d7b'}
+  - {seq: 2, role: markers, filename: assets/KR5i0095_002-YP-C.markers.yaml, hash: 'sha256:6e5efb58d341cbeb5243abba104939dd2b69462e47191dce7486f8da63b4caf3'}
+  - {seq: 3, role: markers, filename: assets/KR5i0095_003-YP-C.markers.yaml, hash: 'sha256:671bba69e5e261622e063efb88c398b1869995ade3a191bfb2e88a33690185af'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: YP-C_KR5i0095_26zhangji-03-0061b
+    span:
+    - body
+    - 0
+    - 256
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: YP-C_KR5i0095_26zhangji-03-0001a
+    span:
+    - body
+    - 0
+    - 1038
+  label: juan 002
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: YP-C_KR5i0095_26zhangji-03-0003b
+    span:
+    - body
+    - 0
+    - 18600
+  label: juan 003
+  type: section
+  level: 1
+hash: sha256:2bae84206d8a955e13e76db8bff43e917b5baf428ccac5b113eb2455ff7a7054

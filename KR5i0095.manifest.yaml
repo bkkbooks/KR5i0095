@@ -1,0 +1,74 @@
+canonical_identifier: bkk:krp/KR5i0095/v1
+canonical_location: https://kanripo.org/bkk/KR5i0095/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 十戒功過格
+  identifiers:
+    alt_id:
+    - JY278
+  date: '2015-08-29 17:59:06.989022'
+  source:
+    repository: kanripo
+    path: KR5i0095
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  base_edition: CK-KZ
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: CK-KZ
+  label: 【重刊道藏輯要】
+- short: CK-KZ-jye
+- short: YP-C
+  label: 【原版道藏輯要】
+- short: KR5i0095
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0095_001.yaml, hash: 'sha256:ebad5918f62589ab9bb1c662d7928c268d4319464ab607ca676dd71bede99b14'}
+  - {seq: 2, filename: KR5i0095_002.yaml, hash: 'sha256:25ba6f492442ed9aeeb72827fe6935a59d28b9ab041b2b2129201d51cfbf653f'}
+  - {seq: 3, filename: KR5i0095_003.yaml, hash: 'sha256:f1d8345f8cadd36cee6a4a311468fc59d8674a1ccc906ce53d82c37ee578e289'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0095_001.markers.yaml, hash: 'sha256:1e8e5ceb7e42805dea543444dcd02c62ffd8518e6f60470d2ce29b8412e2bd1e'}
+  - {seq: 2, role: markers, filename: assets/KR5i0095_002.markers.yaml, hash: 'sha256:7f71bbde43810111273b70bac90bf891a1b1ad24589a8bece54dcc89d6388a72'}
+  - {seq: 3, role: markers, filename: assets/KR5i0095_003.markers.yaml, hash: 'sha256:73f628fccf86bb6f93c6baf8c55631ac7ace78be4d13791b307e4310f6236fa2'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0095_01p001a
+    span:
+    - body
+    - 0
+    - 261
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: CK-KZ_KR5i0095_02p001a
+    span:
+    - body
+    - 0
+    - 1043
+  label: juan 002
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: CK-KZ_KR5i0095_03p001a
+    span:
+    - body
+    - 0
+    - 18600
+  label: juan 003
+  type: section
+  level: 1
+hash: sha256:efab32b4409ab32d6688c2b69c77faed5eeb544a87d7839090b521644620a8d4
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

@@ -1,0 +1,23 @@
+canonical_identifier: bkk:krp/KR5i0095/CK-KZ/v1/juan/1
+seq: 1
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: 十戒功過格功過格題詞學道乃身心性命之事也顧身心之垢不除則性命之光難現此功過之所以宜亟講也我孚佑帝師以功過垂訓於世者人間傳有多本原不僅此兩帙近百餘年來以七覺開闡妙道又總以傅戒爲先務葢以戒卽功之本過之防也吾覺源之開啟也時爲最後而覺源之排列也近巳居首予忝膺值壇之任惟殷殷以功過勉勵諸子葢深知功爲道之梯航而過爲丹之蟊賊也此書妙以十戒定功過復妙以三業定功過其旨精而嚴其義密而賅其權衡品隲確鑿的當而人無遁情事無匿影一予一奪春秋法也學者日置一冊於座右而實心綜覈之則已不啻十目之視十手之指矣其有裨於身心性命者豈淺鮮哉宏教弟子柳守元薰沐題詞
+  hash: sha256:d14cd065bab4e7151c4c194ba5824d85e886103c0ffc7754d7857242f6141152
+  markers:
+  - {type: page-break, offset: 5, content: '', id: CK-KZ_KR5i0095_01p001a}
+metadata:
+  title: 十戒功過格
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+  date: '2015-08-29 17:59:06.989022'
+  source:
+    repository: kanripo
+    path: KR5i0095/KR5i0095_001.txt
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+hash: sha256:6a21c1dfe2d9832b91b9d329f5411e1846de0add13d9a7c077e7d1fab364724f
